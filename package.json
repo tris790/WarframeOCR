@@ -1,0 +1,17 @@
+{
+  "name": "warfapp",
+  "version": "0.1.0",
+  "description": "Uses ocr to get your inventory details",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "jimp": "^0.3.5",
+    "robotjs": "^0.5.1",
+    "tesseract.js": "^1.0.10"
+  }
+}

@@ -1,0 +1,22 @@
+[
+    {
+        "name": "banshee_prime_blueprint",
+        "avgPriceLong": 20.977777777777778,
+        "avgPriceShort": 3.41025641025641
+    },
+    {
+        "name": "rhino_prime_chassis",
+        "avgPriceLong": 191.71666666666667,
+        "avgPriceShort": 27.229166666666668
+    },
+    {
+        "name": "akstiletto_prime_barrel",
+        "avgPriceLong": 15.372222222222222,
+        "avgPriceShort": 16.825
+    },
+    {
+        "name": "dual_kamas_prime_handle",
+        "avgPriceLong": 8.377777777777778,
+        "avgPriceShort": 8.021739130434783
+    }
+]
