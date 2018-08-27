@@ -1,22 +1,687 @@
 [
     {
-        "name": "banshee_prime_blueprint",
-        "avgPriceLong": 20.977777777777778,
-        "avgPriceShort": 3.41025641025641
+        "name": "akbolto_prime_barrel",
+        "avgPriceLong": 36.36516853932584,
+        "avgPriceShort": 3.4347826086956523
     },
     {
-        "name": "rhino_prime_chassis",
-        "avgPriceLong": 191.71666666666667,
-        "avgPriceShort": 27.229166666666668
+        "name": "akbolto_prime_link",
+        "avgPriceLong": 5.078651685393258,
+        "avgPriceShort": 3.7972972972972974
     },
     {
-        "name": "akstiletto_prime_barrel",
-        "avgPriceLong": 15.372222222222222,
-        "avgPriceShort": 16.825
+        "name": "akbronco_prime_link",
+        "avgPriceLong": 16.01123595505618,
+        "avgPriceShort": 3.703125
+    },
+    {
+        "name": "aklex_prime_link",
+        "avgPriceLong": 55.58426966292135,
+        "avgPriceShort": 66.32758620689656
+    },
+    {
+        "name": "ankyros_prime_blade",
+        "avgPriceLong": 48.325842696629216,
+        "avgPriceShort": 34.97872340425532
+    },
+    {
+        "name": "ballistica_prime_receiver",
+        "avgPriceLong": 5.297752808988764,
+        "avgPriceShort": 3.8472222222222223
+    },
+    {
+        "name": "boltor_prime_barrel",
+        "avgPriceLong": 13.146067415730338,
+        "avgPriceShort": 9.829545454545455
+    },
+    {
+        "name": "boar_prime_stock",
+        "avgPriceLong": 36.69662921348315,
+        "avgPriceShort": 47.7972972972973
+    },
+    {
+        "name": "boar_prime_receiver",
+        "avgPriceLong": 7.662921348314606,
+        "avgPriceShort": 8.566666666666666
+    },
+    {
+        "name": "banshee_prime_systems_blueprint",
+        "avgPriceLong": 26.1123595505618,
+        "avgPriceShort": 15.287234042553191
+    },
+    {
+        "name": "banshee_prime_neuroptics_blueprint",
+        "avgPriceLong": 15.134831460674157,
+        "avgPriceShort": 2.6973684210526314
+    },
+    {
+        "name": "ballistica_prime_string",
+        "avgPriceLong": 6.106741573033708,
+        "avgPriceShort": 5.537037037037037
+    },
+    {
+        "name": "boltor_prime_stock",
+        "avgPriceLong": 20.376404494382022,
+        "avgPriceShort": 20.92222222222222
+    },
+    {
+        "name": "braton_prime_barrel",
+        "avgPriceLong": 5.230337078651686,
+        "avgPriceShort": 4.661290322580645
+    },
+    {
+        "name": "braton_prime_receiver",
+        "avgPriceLong": 5.887640449438202,
+        "avgPriceShort": 3.892857142857143
+    },
+    {
+        "name": "braton_prime_stock",
+        "avgPriceLong": 4.837078651685394,
+        "avgPriceShort": 3.4310344827586206
+    },
+    {
+        "name": "burston_prime_barrel",
+        "avgPriceLong": 5.769662921348314,
+        "avgPriceShort": 5.178571428571429
+    },
+    {
+        "name": "burston_prime_stock",
+        "avgPriceLong": 3.831460674157303,
+        "avgPriceShort": 3.823529411764706
     },
     {
         "name": "dual_kamas_prime_handle",
-        "avgPriceLong": 8.377777777777778,
-        "avgPriceShort": 8.021739130434783
+        "avgPriceLong": 8.314606741573034,
+        "avgPriceShort": 7.35
+    },
+    {
+        "name": "destreza_prime_blade",
+        "avgPriceLong": 31.36764705882353,
+        "avgPriceShort": 12.815217391304348
+    },
+    {
+        "name": "cernos_prime_upper_limb",
+        "avgPriceLong": 15.674157303370787,
+        "avgPriceShort": 2.517857142857143
+    },
+    {
+        "name": "cernos_prime_string",
+        "avgPriceLong": 11.252808988764045,
+        "avgPriceShort": 3.3461538461538463
+    },
+    {
+        "name": "carrier_prime_systems",
+        "avgPriceLong": 7.337078651685394,
+        "avgPriceShort": 6.151515151515151
+    },
+    {
+        "name": "carrier_prime_carapace",
+        "avgPriceLong": 16.46067415730337,
+        "avgPriceShort": 17.77906976744186
+    },
+    {
+        "name": "ember_prime_chassis_blueprint",
+        "avgPriceLong": 91.71910112359551,
+        "avgPriceShort": 33.861702127659576
+    },
+    {
+        "name": "ember_prime_neuroptics_blueprint",
+        "avgPriceLong": 80.96629213483146,
+        "avgPriceShort": 17.127906976744185
+    },
+    {
+        "name": "ember_prime_systems_blueprint",
+        "avgPriceLong": 34.853932584269664,
+        "avgPriceShort": 27.72222222222222
+    },
+    {
+        "name": "euphona_prime_barrel",
+        "avgPriceLong": 24.34269662921348,
+        "avgPriceShort": 4.290322580645161
+    },
+    {
+        "name": "fragor_prime_head",
+        "avgPriceLong": 6.129213483146067,
+        "avgPriceShort": 5.605263157894737
+    },
+    {
+        "name": "frost_prime_neuroptics_blueprint",
+        "avgPriceLong": 14.353932584269662,
+        "avgPriceShort": 12.782608695652174
+    },
+    {
+        "name": "hikou_prime_stars",
+        "avgPriceLong": 12.02247191011236,
+        "avgPriceShort": 12.146341463414634
+    },
+    {
+        "name": "hikou_prime_pouch",
+        "avgPriceLong": 22.05056179775281,
+        "avgPriceShort": 12.188888888888888
+    },
+    {
+        "name": "helios_prime_systems",
+        "avgPriceLong": 568.0112359550562,
+        "avgPriceShort": 4.455555555555556
+    },
+    {
+        "name": "helios_prime_carapace",
+        "avgPriceLong": 10.48876404494382,
+        "avgPriceShort": 2.9444444444444446
+    },
+    {
+        "name": "galatine_prime_handle",
+        "avgPriceLong": 14.53370786516854,
+        "avgPriceShort": 5.333333333333333
+    },
+    {
+        "name": "galatine_prime_blade",
+        "avgPriceLong": 5.426966292134831,
+        "avgPriceShort": 3.5625
+    },
+    {
+        "name": "hydroid_prime_chassis_blueprint",
+        "avgPriceLong": 8.337078651685394,
+        "avgPriceShort": 3.6666666666666665
+    },
+    {
+        "name": "hydroid_prime_neuroptics_blueprint",
+        "avgPriceLong": 15.03370786516854,
+        "avgPriceShort": 10.916666666666666
+    },
+    {
+        "name": "kogake_prime_boot",
+        "avgPriceLong": 8.112359550561798,
+        "avgPriceShort": 7.319444444444445
+    },
+    {
+        "name": "lex_prime_barrel",
+        "avgPriceLong": 9.57865168539326,
+        "avgPriceShort": 1.9696969696969697
+    },
+    {
+        "name": "lex_prime_receiver",
+        "avgPriceLong": 17.584269662921347,
+        "avgPriceShort": 5.833333333333333
+    },
+    {
+        "name": "limbo_prime_chassis_blueprint",
+        "avgPriceLong": 35,
+        "avgPriceShort": 19.46875
+    },
+    {
+        "name": "nekros_prime_chassis_blueprint",
+        "avgPriceLong": 35.42696629213483,
+        "avgPriceShort": 6.121951219512195
+    },
+    {
+        "name": "nami_skyla_prime_handle",
+        "avgPriceLong": 9.904494382022472,
+        "avgPriceShort": 3.104651162790698
+    },
+    {
+        "name": "mag_prime_systems_blueprint",
+        "avgPriceLong": 49.69101123595506,
+        "avgPriceShort": 63.4390243902439
+    },
+    {
+        "name": "mag_prime_neuroptics_blueprint",
+        "avgPriceLong": 18.617977528089888,
+        "avgPriceShort": 17.318181818181817
+    },
+    {
+        "name": "limbo_prime_systems_blueprint",
+        "avgPriceLong": 15.617647058823529,
+        "avgPriceShort": 3.409090909090909
+    },
+    {
+        "name": "limbo_prime_neuroptics_blueprint",
+        "avgPriceLong": 56.345588235294116,
+        "avgPriceShort": 36.489583333333336
+    },
+    {
+        "name": "nekros_prime_systems_blueprint",
+        "avgPriceLong": 44.47752808988764,
+        "avgPriceShort": 52.202127659574465
+    },
+    {
+        "name": "nova_prime_neuroptics_blueprint",
+        "avgPriceLong": 70.84269662921348,
+        "avgPriceShort": 8.75
+    },
+    {
+        "name": "nyx_prime_neuroptics_blueprint",
+        "avgPriceLong": 52.668539325842694,
+        "avgPriceShort": 41.02127659574468
+    },
+    {
+        "name": "nyx_prime_systems_blueprint",
+        "avgPriceLong": 23.45505617977528,
+        "avgPriceShort": 39.6875
+    },
+    {
+        "name": "oberon_prime_chassis_blueprint",
+        "avgPriceLong": 633.2808988764045,
+        "avgPriceShort": 3.9318181818181817
+    },
+    {
+        "name": "oberon_prime_neuroptics_blueprint",
+        "avgPriceLong": 71.00561797752809,
+        "avgPriceShort": 12.882978723404255
+    },
+    {
+        "name": "paris_prime_string",
+        "avgPriceLong": 9.432584269662922,
+        "avgPriceShort": 3.0526315789473686
+    },
+    {
+        "name": "paris_prime_lower_limb",
+        "avgPriceLong": 564.5730337078652,
+        "avgPriceShort": 3705.314814814815
+    },
+    {
+        "name": "paris_prime_grip",
+        "avgPriceLong": 4.213483146067416,
+        "avgPriceShort": 3.810344827586207
+    },
+    {
+        "name": "orthos_prime_handle",
+        "avgPriceLong": 5.067415730337078,
+        "avgPriceShort": 5.8108108108108105
+    },
+    {
+        "name": "orthos_prime_blade",
+        "avgPriceLong": 5.803370786516854,
+        "avgPriceShort": 4.767441860465116
+    },
+    {
+        "name": "odonata_prime_wings_blueprint",
+        "avgPriceLong": 25.43258426966292,
+        "avgPriceShort": 27.772727272727273
+    },
+    {
+        "name": "paris_prime_upper_limb",
+        "avgPriceLong": 3.8820224719101124,
+        "avgPriceShort": 1.9838709677419355
+    },
+    {
+        "name": "pyrana_prime_barrel",
+        "avgPriceLong": 11.830882352941176,
+        "avgPriceShort": 4.840909090909091
+    },
+    {
+        "name": "pyrana_prime_receiver",
+        "avgPriceLong": 760.3455882352941,
+        "avgPriceShort": 9.71875
+    },
+    {
+        "name": "reaper_prime_blade",
+        "avgPriceLong": 17.03370786516854,
+        "avgPriceShort": 13.26923076923077
+    },
+    {
+        "name": "reaper_prime_handle",
+        "avgPriceLong": 13.544943820224718,
+        "avgPriceShort": 15.444444444444445
+    },
+    {
+        "name": "saryn_prime_neuroptics_blueprint",
+        "avgPriceLong": 15.657303370786517,
+        "avgPriceShort": 14.553191489361701
+    },
+    {
+        "name": "soma_prime_barrel",
+        "avgPriceLong": 22.089887640449437,
+        "avgPriceShort": 16.435897435897434
+    },
+    {
+        "name": "silva_and_aegis_prime_hilt",
+        "avgPriceLong": 8.640449438202246,
+        "avgPriceShort": 2.08
+    },
+    {
+        "name": "silva_and_aegis_prime_guard",
+        "avgPriceLong": 13.98314606741573,
+        "avgPriceShort": 12.141304347826088
+    },
+    {
+        "name": "silva_and_aegis_prime_blade",
+        "avgPriceLong": 10.724719101123595,
+        "avgPriceShort": 3.838235294117647
+    },
+    {
+        "name": "scindo_prime_handle",
+        "avgPriceLong": 6.837078651685394,
+        "avgPriceShort": 4.576923076923077
+    },
+    {
+        "name": "saryn_prime_systems_blueprint",
+        "avgPriceLong": 15.97752808988764,
+        "avgPriceShort": 5.523255813953488
+    },
+    {
+        "name": "soma_prime_stock",
+        "avgPriceLong": 80.36516853932584,
+        "avgPriceShort": 84.31944444444444
+    },
+    {
+        "name": "spira_prime_blade",
+        "avgPriceLong": 53.91573033707865,
+        "avgPriceShort": 56.26470588235294
+    },
+    {
+        "name": "sybaris_prime_receiver",
+        "avgPriceLong": 11.910112359550562,
+        "avgPriceShort": 3.9705882352941178
+    },
+    {
+        "name": "sybaris_prime_stock",
+        "avgPriceLong": 26.348314606741575,
+        "avgPriceShort": 4.178571428571429
+    },
+    {
+        "name": "tiberon_prime_barrel",
+        "avgPriceLong": 31.207865168539325,
+        "avgPriceShort": 13.920454545454545
+    },
+    {
+        "name": "tiberon_prime_receiver",
+        "avgPriceLong": 5.859550561797753,
+        "avgPriceShort": 3.25
+    },
+    {
+        "name": "valkyr_prime_chassis_blueprint",
+        "avgPriceLong": 41.28089887640449,
+        "avgPriceShort": 24.8125
+    },
+    {
+        "name": "trinity_prime_neuroptics_blueprint",
+        "avgPriceLong": 14.724719101123595,
+        "avgPriceShort": 15.30952380952381
+    },
+    {
+        "name": "trinity_prime_chassis_blueprint",
+        "avgPriceLong": 11.853932584269662,
+        "avgPriceShort": 9.692307692307692
+    },
+    {
+        "name": "tigris_prime_stock",
+        "avgPriceLong": 5.646067415730337,
+        "avgPriceShort": 4.162162162162162
+    },
+    {
+        "name": "tigris_prime_receiver",
+        "avgPriceLong": 7.865168539325842,
+        "avgPriceShort": 6.369047619047619
+    },
+    {
+        "name": "tigris_prime_barrel",
+        "avgPriceLong": 7.129213483146067,
+        "avgPriceShort": 4.743243243243243
+    },
+    {
+        "name": "valkyr_prime_neuroptics_blueprint",
+        "avgPriceLong": 14.544943820224718,
+        "avgPriceShort": 5.010416666666667
+    },
+    {
+        "name": "valkyr_prime_systems_blueprint",
+        "avgPriceLong": 21.674157303370787,
+        "avgPriceShort": 21.541666666666668
+    },
+    {
+        "name": "vasto_prime_barrel",
+        "avgPriceLong": 13.438202247191011,
+        "avgPriceShort": 14.178571428571429
+    },
+    {
+        "name": "vasto_prime_receiver",
+        "avgPriceLong": 6.359550561797753,
+        "avgPriceShort": 6.020833333333333
+    },
+    {
+        "name": "vectis_prime_barrel",
+        "avgPriceLong": 12.685393258426966,
+        "avgPriceShort": 13.485294117647058
+    },
+    {
+        "name": "vectis_prime_stock",
+        "avgPriceLong": 114.21348314606742,
+        "avgPriceShort": 74.52439024390245
+    },
+    {
+        "name": "zephyr_prime_neuroptics_blueprint",
+        "avgPriceLong": 585.0224719101124,
+        "avgPriceShort": 2.933333333333333
+    },
+    {
+        "name": "zephyr_prime_chassis_blueprint",
+        "avgPriceLong": 12.893258426966293,
+        "avgPriceShort": 6.468085106382978
+    },
+    {
+        "name": "volt_prime_systems_blueprint",
+        "avgPriceLong": 111.58426966292134,
+        "avgPriceShort": 26.141304347826086
+    },
+    {
+        "name": "volt_prime_neuroptics_blueprint",
+        "avgPriceLong": 121.36516853932584,
+        "avgPriceShort": 76.20652173913044
+    },
+    {
+        "name": "venka_prime_gauntlet",
+        "avgPriceLong": 40.32022471910113,
+        "avgPriceShort": 44.90625
+    },
+    {
+        "name": "venka_prime_blades",
+        "avgPriceLong": 4.949438202247191,
+        "avgPriceShort": 2.517857142857143
+    },
+    {
+        "name": "akbolto_prime_blueprint",
+        "avgPriceLong": 17.735955056179776,
+        "avgPriceShort": 2.1666666666666665
+    },
+    {
+        "name": "bronco_prime_blueprint",
+        "avgPriceLong": 3.6235955056179776,
+        "avgPriceShort": 2.9705882352941178
+    },
+    {
+        "name": "banshee_prime_blueprint",
+        "avgPriceLong": 20.376404494382022,
+        "avgPriceShort": 3.857142857142857
+    },
+    {
+        "name": "boar_prime_blueprint",
+        "avgPriceLong": 8.97752808988764,
+        "avgPriceShort": 11.324324324324325
+    },
+    {
+        "name": "braton_prime_blueprint",
+        "avgPriceLong": 5.780898876404494,
+        "avgPriceShort": 1.9736842105263157
+    },
+    {
+        "name": "bronco_prime_blueprint",
+        "avgPriceLong": 3.6235955056179776,
+        "avgPriceShort": 2.9705882352941178
+    },
+    {
+        "name": "fang_prime_blueprint",
+        "avgPriceLong": 9.795454545454545,
+        "avgPriceShort": 1.9318181818181819
+    },
+    {
+        "name": "euphona_prime_blueprint",
+        "avgPriceLong": 571.0674157303371,
+        "avgPriceShort": 2.5625
+    },
+    {
+        "name": "destreza_prime_blueprint",
+        "avgPriceLong": 13.786764705882353,
+        "avgPriceShort": 4.0131578947368425
+    },
+    {
+        "name": "cernos_prime_blueprint",
+        "avgPriceLong": 62.87640449438202,
+        "avgPriceShort": 3.1333333333333333
+    },
+    {
+        "name": "carrier_prime_blueprint",
+        "avgPriceLong": 513.6966292134831,
+        "avgPriceShort": 6.947368421052632
+    },
+    {
+        "name": "burston_prime_blueprint",
+        "avgPriceLong": 4.275280898876405,
+        "avgPriceShort": 2.1956521739130435
+    },
+    {
+        "name": "fragor_prime_blueprint",
+        "avgPriceLong": 8.544943820224718,
+        "avgPriceShort": 6.954545454545454
+    },
+    {
+        "name": "helios_prime_blueprint",
+        "avgPriceLong": 85.74157303370787,
+        "avgPriceShort": 4.1
+    },
+    {
+        "name": "hikou_prime_blueprint",
+        "avgPriceLong": 11.640449438202246,
+        "avgPriceShort": 4.125
+    },
+    {
+        "name": "hydroid_prime_blueprint",
+        "avgPriceLong": 9.191011235955056,
+        "avgPriceShort": 4.136363636363637
+    },
+    {
+        "name": "kogake_prime_blueprint",
+        "avgPriceLong": 5.96067415730337,
+        "avgPriceShort": 4.844827586206897
+    },
+    {
+        "name": "kronen_prime_blueprint",
+        "avgPriceLong": 6.258426966292135,
+        "avgPriceShort": 3.4583333333333335
+    },
+    {
+        "name": "nyx_prime_blueprint",
+        "avgPriceLong": 11.640449438202246,
+        "avgPriceShort": 5.911111111111111
+    },
+    {
+        "name": "nova_prime_blueprint",
+        "avgPriceLong": 32.57865168539326,
+        "avgPriceShort": 39.25555555555555
+    },
+    {
+        "name": "nami_skyla_prime_blueprint",
+        "avgPriceLong": 4.106741573033708,
+        "avgPriceShort": 3.46875
+    },
+    {
+        "name": "mirage_prime_blueprint",
+        "avgPriceLong": 27.40449438202247,
+        "avgPriceShort": 15.585106382978724
+    },
+    {
+        "name": "loki_prime_blueprint",
+        "avgPriceLong": 70.92696629213484,
+        "avgPriceShort": 9.236842105263158
+    },
+    {
+        "name": "bo_prime_blueprint",
+        "avgPriceLong": 8.215909090909092,
+        "avgPriceShort": 9.113636363636363
+    },
+    {
+        "name": "oberon_prime_blueprint",
+        "avgPriceLong": 132.45505617977528,
+        "avgPriceShort": 4.4222222222222225
+    },
+    {
+        "name": "orthos_prime_blueprint",
+        "avgPriceLong": 10.5,
+        "avgPriceShort": 3.302325581395349
+    },
+    {
+        "name": "paris_prime_blueprint",
+        "avgPriceLong": 3.707865168539326,
+        "avgPriceShort": 3.4411764705882355
+    },
+    {
+        "name": "reaper_prime_blueprint",
+        "avgPriceLong": 10.539325842696629,
+        "avgPriceShort": 11.125
+    },
+    {
+        "name": "saryn_prime_blueprint",
+        "avgPriceLong": 35.39325842696629,
+        "avgPriceShort": 48.666666666666664
+    },
+    {
+        "name": "scindo_prime_blueprint",
+        "avgPriceLong": 6.533707865168539,
+        "avgPriceShort": 3.212121212121212
+    },
+    {
+        "name": "tiberon_prime_blueprint",
+        "avgPriceLong": 9.646067415730338,
+        "avgPriceShort": 4.987179487179487
+    },
+    {
+        "name": "sybaris_prime_blueprint",
+        "avgPriceLong": 9.325842696629213,
+        "avgPriceShort": 3.425
+    },
+    {
+        "name": "spira_prime_blueprint",
+        "avgPriceLong": 4.651685393258427,
+        "avgPriceShort": 6.5
+    },
+    {
+        "name": "soma_prime_blueprint",
+        "avgPriceLong": 9.820224719101123,
+        "avgPriceShort": 6.785714285714286
+    },
+    {
+        "name": "sicarus_prime_blueprint",
+        "avgPriceLong": 13.134831460674157,
+        "avgPriceShort": 14.066666666666666
+    },
+    {
+        "name": "valkyr_prime_blueprint",
+        "avgPriceLong": 18.96067415730337,
+        "avgPriceShort": 3.5945945945945947
+    },
+    {
+        "name": "vauban_prime_blueprint",
+        "avgPriceLong": 24.264044943820224,
+        "avgPriceShort": 25.454545454545453
+    },
+    {
+        "name": "vectis_prime_blueprint",
+        "avgPriceLong": 23.146067415730336,
+        "avgPriceShort": 7.277777777777778
+    },
+    {
+        "name": "venka_prime_blueprint",
+        "avgPriceLong": 5.123595505617978,
+        "avgPriceShort": 3.8548387096774195
+    },
+    {
+        "name": "volt_prime_blueprint",
+        "avgPriceLong": 39.31460674157304,
+        "avgPriceShort": 41.28260869565217
+    },
+    {
+        "name": "odonata_prime_blueprint",
+        "avgPriceLong": 8.96629213483146,
+        "avgPriceShort": 8.25
     }
 ]

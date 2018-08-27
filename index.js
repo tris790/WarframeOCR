@@ -1,8 +1,9 @@
 let Tesseract = require("tesseract.js");
 let robot = require("robotjs");
 let jimp = require("jimp");
-
-let image = require("path").resolve(__dirname, "captures/0_0.png");
+let primeDB = require("./db/primepartnames.json");
+const fs = require("fs");
+const util = require("util");
 
 const INITIAL_OFFSET = { x: 180, y: 280 };
 const ITEM_COL_COUNT = 4;
@@ -23,7 +24,7 @@ let main = async () => {
     console.time("execution");
     let rowIsFullOfItem = true;
     let currentRow = 0;
-    for (let scrollCount = 0; rowIsFullOfItem < 6; scrollCount++) {
+    for (let scrollCount = 0; rowIsFullOfItem; scrollCount++) {
         for (let y = 0; y < ITEM_COL_COUNT; y++, currentRow++) {
             if (!rowIsFullOfItem) {
                 console.log("we are done");
@@ -55,7 +56,7 @@ let main = async () => {
                         prediction = prediction.text.trim();
                         console.log("prediction", prediction);
                         if (prediction.toLowerCase().includes("prime")) {
-                            result.push(`${coordsX_Y} ${prediction}`);
+                            result.push(prediction);
                         } else {
                             rowIsFullOfItem = false;
                             console.log("row has empty item");
@@ -72,7 +73,20 @@ let main = async () => {
         robot.moveMouseSmooth(INITIAL_OFFSET.x, INITIAL_OFFSET.y);
     }
     let cleanedData = result.map(x => x.replace("\n", " "));
-    console.log("done", "(" + cleanedData.length + ")");
+    let finalResult = [];
+    //console.log(cleanedData, primeDB);
+    for (item of cleanedData) {
+        const res = primeDB.find(x =>
+            item.toLowerCase().includes(x.toLowerCase())
+        );
+        console.log(res);
+        if (res) finalResult.push(res);
+    }
+    console.log("done", "(" + finalResult.length + ")");
+    const content = JSON.stringify(finalResult);
+
+    const writeFile = util.promisify(fs.writeFile);
+    await writeFile("./db/myitems.json", content, "utf8");
     console.timeEnd("execution");
     process.exit();
 };

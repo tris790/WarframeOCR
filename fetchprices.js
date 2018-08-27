@@ -1,33 +1,51 @@
 let fetch = require("isomorphic-fetch");
 const fs = require("fs");
-const itemNames = require("./db/primepartnames.json");
+const itemNames = require("./db/myitems.json");
 let sleep = time => new Promise(resolve => setTimeout(() => resolve(), time));
+let db = [];
 
 function calcAvg(stats) {
     return stats.reduce((prev, cur) => prev + cur.avg_price, 0) / stats.length;
 }
 
 function nameToWfMarketName(name) {
-    return name.toLowerCase().replace(/ /g, "_");
+    return name
+        .toLowerCase()
+        .replace(/&/g, "and")
+        .replace(/ /g, "_");
+}
+
+function analysePrices(json, name) {
+    const statsLong = json.payload.statistics["90days"];
+    const statsShort = json.payload.statistics["48hours"];
+
+    const avgPriceLong = calcAvg(statsLong);
+    const avgPriceShort = calcAvg(statsShort);
+    // console.log(name, avgPriceLong, avgPriceShort);
+    db.push({ name, avgPriceLong, avgPriceShort });
 }
 
 async function fetchPrices(items) {
-    let db = [];
     for (item of items) {
         const name = nameToWfMarketName(item);
         await fetch(`https://api.warframe.market/v1/items/${name}/statistics`)
             .then(res => res.json())
-            .then(json => {
-                const statsLong = json.payload.statistics["90days"];
-                const statsShort = json.payload.statistics["48hours"];
-
-                const avgPriceLong = calcAvg(statsLong);
-                const avgPriceShort = calcAvg(statsShort);
-                // console.log(name, avgPriceLong, avgPriceShort);
-                db.push({ name, avgPriceLong, avgPriceShort });
+            .then(async json => {
+                if (json.payload) {
+                    analysePrices(json, name);
+                } else {
+                    const nameWithoutBlueprint = name.replace("_blueprint", "");
+                    await fetch(
+                        `https://api.warframe.market/v1/items/${nameWithoutBlueprint}/statistics`
+                    )
+                        .then(res => res.json())
+                        .then(json => {
+                            analysePrices(json, name);
+                        });
+                }
             })
-            .catch(e => console.log(e));
-        await sleep(1000);
+            .catch(e => console.log(name + "=> " + e));
+        // await sleep(1000);
     }
 
     const content = JSON.stringify(db);
